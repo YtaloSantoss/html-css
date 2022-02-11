@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(128, 128, 128, 0.418);
+            margin: 0px;
+        }
+
+        header{
+            background-color: azure;
+            padding:10px;
+            margin:10px;
+        }
+
+        nav{
+            background-color:rgba(43, 119, 182, 0.582);
+            padding:3px;
+            box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.322); 
+        }
+
+        nav > a{
+            text-decoration:none;
+            color: azure;
+            font-weight:bold;
+            margin:50px;
+        }
+
+        nav > a:hover {
+            text-decoration:underline;
+        }
+
+        main{
+            background-color: azure;
+            padding:10px;
+            margin:10px;
+        }
+
+        article{
+            background-color: rgb(188, 202, 202);
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(140, 153, 153);
+        }
+        footer{
+            background-color: rgba(0, 0, 0, 0.582);
+            color: azure; 
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 30px;
+            border-radius:50%;
+        }
+    </style>
+</head>
+<body>
+      <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+      </header>
+      <main>
+          <section id="assuntos">
+            <p>ESportes políticas tecnologia</p>
+          </section>
+          <section id="noticias">
+              <article>
+                  <h2>Notícias sobre o Brasil</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quaerat recusandae consequuntur voluptatem culpa? Sunt, ullam asperiores dolore temporibus autem qui nesciunt dolorem tenetur molestias rerum maxime recusandae dolor vero.</p>
+                    <aside>
+                        <p>Artigo escreito por José da Silva</p>
+                    </aside>
+              </article>
+              <article>
+
+              </article>
+          </section>
+      </main> 
+      <footer>
+          <p>Desenvolvido pelo CursoemVideo</p>
+      </footer>  
+      <div id="bola"></div>
+</body>
+</html>
