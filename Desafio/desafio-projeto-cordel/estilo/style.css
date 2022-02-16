@@ -1,13 +1,24 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2? family= Overlock:ital,wght@1.900 & family= Passion+One:wght@900 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3:'Sriracha', cursive;
+}
+
  * {
      margin: 0px;
      padding: 0px;
  }
 
-htnl, body {
+html, body {
     min-height: 100vh;
     background-color: #a9a9a9;
+    font-family: var(--fonte1)
 }
 
 header {
@@ -19,6 +30,8 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-weight: bolder;
 }
 
 header > p {
