@@ -22,7 +22,7 @@ html, body {
 }
 
 header {
-    background-color: #000000;
+    background-image: linear-gradient( to bottom,hsla(0, 0%, 0%, 0.781), rgb(0, 0, 0));
     color: #ffffff;
     text-align: center;
 }
@@ -49,10 +49,14 @@ header a:hover, footer a:hover {
 }
 
 section {
-    padding: 10vh;
+    padding: 9vh;
     line-height: 2em;
     font-family:'palagrafos';
     font-size: 1.5em;
+}
+
+section > p {
+    padding-bottom: 2em ;
 }
 
 section.normal {
@@ -61,13 +65,28 @@ section.normal {
 }
 
 section.imagem > p {
-    background-color:rgba(0, 0, 0, 0.247);
+    background-color:rgba(0, 0, 0, 0.486);
     width: 400px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
 }
 
 section.imagem {
     background-color: #000000d0;
     color: #ffffff;
+    box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.603);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img001 {
+    background-image: url(../imagens/pexels-cristian-.jpg);
+    background-position: right center;
+    
+}
+
+section#img002 {
+    background-image: url(../imagens/pexels-pixabay-.jpg);
+    
 }
 footer {
     color: #ffffff;
